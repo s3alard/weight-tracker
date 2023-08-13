@@ -8,22 +8,46 @@ h1{
     align-items: center;
 }
 
-.input-wrapper {
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
-.container-one {
+#container-one {
     display:flex;
     flex-direction: row;
-    align-items: flex-start;
     flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .input-box {
     margin:5px;
-    //border: 1px solid #ccc;
-   // padding: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
     display: flex;
     flex-direction: column;
+}
+
+#history {
+    border: 1px solid #000000;
+}
+
+#container-two {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.display-box {
+    margin:5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#container-three {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
 }
